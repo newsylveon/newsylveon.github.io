@@ -234,7 +234,7 @@ function playTrack() {
 function pauseTrack() {
   curr_track.pause();
   isPlaying = false;
-  playpause_btn.innerHTML = '<img src="/img/player/player-play.png" alt="">';
+  playpause_btn.innerHTML = '<img src="img/player/player-play.png" alt="">';
   cur_time_visible = false;
   changeTimeVisibility();
 }

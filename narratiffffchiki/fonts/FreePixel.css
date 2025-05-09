@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FreePixel';
+    src: url('pixel/FreePixel.eot');
+    src: url('pixel/FreePixel.eot') format('embedded-opentype'),
+         url('pixel/FreePixel.woff2') format('woff2'),
+         url('pixel/FreePixel.woff') format('woff'),
+         url('pixel/FreePixel.ttf') format('truetype'),
+         url('pixel/FreePixel.svg#FreePixel') format('svg');
+}

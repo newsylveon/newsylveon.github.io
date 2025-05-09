@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DIGITALDREAMNARROW';
+    src: url('digital/DIGITALDREAMNARROW.eot');
+    src: url('digital/DIGITALDREAMNARROW.eot') format('embedded-opentype'),
+         url('digital/DIGITALDREAMNARROW.woff2') format('woff2'),
+         url('digital/DIGITALDREAMNARROW.woff') format('woff'),
+         url('digital/DIGITALDREAMNARROW.ttf') format('truetype'),
+         url('digital/DIGITALDREAMNARROW.svg#DIGITALDREAMNARROW') format('svg');
+}

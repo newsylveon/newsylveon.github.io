@@ -147,11 +147,11 @@ function changeTimeVisibility(){
     else icon.classList.remove('visible');
 
   if(isPlaying) {
-    icon.innerHTML = '<img class="playpause-icon" src="/img/player/player-play-red.png" alt="">';
-    audio_visual.innerHTML = '<img class="playpause-icon" src="/img/player/playerplaying.gif" alt="">';
+    icon.innerHTML = '<img class="playpause-icon" src="img/player/player-play-red.png" alt="">';
+    audio_visual.innerHTML = '<img class="playpause-icon" src="img/player/playerplaying.gif" alt="">';
   } else{
-      icon.innerHTML = '<img class="playpause-icon" src="/img/player/player-pause-red.png" alt="">';
-      audio_visual.innerHTML = '<img class="playpause-icon" src="/img/player/notplaying.png" alt="">';
+      icon.innerHTML = '<img class="playpause-icon" src="img/player/player-pause-red.png" alt="">';
+      audio_visual.innerHTML = '<img class="playpause-icon" src="img/player/notplaying.png" alt="">';
     };
 };
 
@@ -277,7 +277,7 @@ function prevTrack() {
 }
 
 function fetchLyrics(){
-  fetch("./lyrics/" + track_index + "_" + language + ".txt")
+  fetch("lyrics/" + track_index + "_" + language + ".txt")
   .then((res) => res.text())
   .then((text) => {
     document.querySelector('.lyrics').innerHTML = text

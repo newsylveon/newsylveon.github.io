@@ -1,10 +1,10 @@
-@import url(/fonts/FreePixel.css);
-@import url(/fonts/DIGITALDREAMNARROW.css);
+@import url(fonts/FreePixel.css);
+@import url(fonts/DIGITALDREAMNARROW.css);
 
 :root{
     --main: #c6252e;
     --blue: #000080;
-    --cursor: url(/img/cursor/normal.png);
+    --cursor: url(img/cursor/normal.png);
 }
 
 *{
@@ -118,7 +118,7 @@ main{
 }
 
 .window{
-    background: url(/img/carpet2.jpg);
+    background: url(img/carpet2.jpg);
     image-rendering: pixelated;
     background-size: 150%;
     background-position: center;
@@ -142,7 +142,7 @@ main{
     width: 540px;
     margin: 0 auto;
     image-rendering: pixelated;
-    background: url(/img/wood032.gif);
+    background: url(img/wood032.gif);
     background-position: center;
     display: flex;
     flex-direction: column;
@@ -545,7 +545,7 @@ main{
     content: '';
     width: 16px;
     height: 16px;
-    background: url(/img/gifs/cd.gif);
+    background: url(img/gifs/cd.gif);
     background-size: contain;
     margin: 0 10px 0 0;
 }

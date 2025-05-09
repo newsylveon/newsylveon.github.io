@@ -29,77 +29,77 @@ let track_list = [
     artist: "New Sylveon",
     path: "./audio/01. New Sylveon - Правды больше нет!.mp3",
     duration: 120,
-    stems: "https://www.youtube.com/watch?v=mikVpxLVqiQ"
+    stems: "https://drive.google.com/file/d/1vzZcA4hofagZ0uPkCaU5vMwO_oBm9sL4/view?usp=drive_link"
   },
   {
     name: "Завтрашнее настоящее",
     artist: "New Sylveon",
     path: "./audio/02. New Sylveon - Завтрашнее настоящее.mp3",
     duration: 130,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/1ZyYLLg7al0BU0FYJ5k56YeIW8XyhK5tH/view?usp=drive_link"
   },
   {
     name: "Bakugan Fight Club",
     artist: "New Sylveon",
     path: "./audio/03. New Sylveon - Bakugan Fight Club.mp3",
     duration: 193,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/13eVEtwZeCt5WL8bNzU6FQSQOWijaxhGR/view?usp=drive_link"
   },
   {
     name: "Прокрастинация",
     artist: "New Sylveon",
     path: "./audio/04. New Sylveon - Прокрастинация.mp3",
     duration: 126,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/1FQvYBObvKP5KPTfl98cIKaTGh-nShPSQ/view?usp=drive_link"
   },
   {
     name: "Ковёр",
     artist: "New Sylveon",
     path: "./audio/05. New Sylveon - Ковёр.mp3",
     duration: 97,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/16opWmMNIQuBGFlLpbjxSyLfdicLTw6fH/view?usp=drive_link"
   },
   {
     name: "Black pill",
     artist: "New Sylveon, дима фефилов",
     path: "./audio/06. New Sylveon feat. дима фефилов - Black pill.mp3",
     duration: 158,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/1CZkaJqrpiIs80pXtlM4i6Z5hy1DK2ScZ/view?usp=drive_link"
   },
   {
     name: "Ты не получишь ничего!",
     artist: "New Sylveon",
     path: "./audio/07_New_Sylveon_Ты_не_получишь_ничего!.mp3",
     duration: 122,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/1hsXDeyRuX-dXflYfUycTkIm3BqWbAarT/view?usp=drive_link"
   },
   {
     name: "Мы вам перезвоним",
     artist: "New Sylveon, кот курит",
     path: "./audio/08_New_Sylveon_feat_кот_курит_Мы_вам_перезвоним.mp3",
     duration: 121,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/1NXJy70mJbajVQcVDPOwnOdKbZdb20XhA/view?usp=drive_link"
   },
   {
     name: "Как нас съели этим летом",
     artist: "New Sylveon",
     path: "./audio/09_New_Sylveon_Как_нас_съели_этим_летом.mp3",
     duration: 126,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/1kxhiy7nz6-cv5pnFIyFvDEejElLqBKUb/view?usp=drive_link"
   },
   {
     name: "Жить (Казалось че-то понял)",
     artist: "New Sylveon",
     path: "./audio/10_New_Sylveon_Жить_Казалось_че_то_понял.mp3",
     duration: 166,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/18cCp9Ush1YOna07Owo_ECLpbCidGbjM4/view?usp=drive_link"
   },
   {
     name: "Дуров верни детство(((",
     artist: "New Sylveon",
     path: "./audio/11. New Sylveon - Дуров верни детство(((.mp3",
     duration: 158,
-    stems: "#"
+    stems: "https://drive.google.com/file/d/1LV_-6wefsXBn1W1pXCzE_iiT7KkhAipa/view?usp=drive_link"
   },
 ];
 

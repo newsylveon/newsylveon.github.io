@@ -339,4 +339,30 @@ function seekUpdate() {
   duration_element.textContent = Math.floor(duration_cur_time/60) + ':' + digits + Math.floor((duration_cur_time % 60)) + '/' + Math.floor(total_duration / 60) + ':' + (total_duration % 60);
 }
 
+if (!('ontouchstart' in window)) {
+  const cursor = document.createElement('div');
+  cursor.id = 'cursor';
+  document.body.appendChild(cursor);
 
+  document.addEventListener('mousemove', (e) => {
+      cursor.style.left = `${e.clientX}px`;
+      cursor.style.top = `${e.clientY}px`;
+      console.log(e.clientX, e.clientY)
+  });
+
+  document.body.style.cursor = 'none';
+
+  document.addEventListener('mouseleave', () => {
+      cursor.style.opacity = '0';
+  });
+
+  document.addEventListener('mouseenter', () => {
+      cursor.style.opacity = '1';
+  });
+
+  const pointerElements = document.querySelectorAll('a, button, [cursor="pointer"], .clickable');
+    pointerElements.forEach(el => {
+        el.addEventListener('mouseenter', () => cursor.classList.add('pointer'));
+        el.addEventListener('mouseleave', () => cursor.classList.remove('pointer'));
+    })
+}

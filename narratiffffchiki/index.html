@@ -94,17 +94,17 @@
                                 </div>
                                 <div class="slider_container">
                                     <img src="img/player/player-volume.png" alt="" class="volume_icon">
-                                    <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+                                    <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()" cursor="pointer">
                                   </div>
                             </div>
                         </div>
                     </div>
                     <div class="controls">
                         <div class="slider_container">
-                            <input type="range" min="0" max="100" value="0" class="seek_slider" onchange="seekTo(); seekUpdate()">
+                            <input type="range" min="0" max="100" value="0" class="seek_slider" onchange="seekTo(); seekUpdate()" cursor="pointer">
                         </div>
                         <div class="media-buttons">
-                            <div class="buttons">
+                            <div class="buttons" cursor="pointer">
                                 <div class="prev-track border-click" onclick="prevTrack()"><img src="img/player/player-backward.png" alt=""></div>
                                 <div class="playpause-track border-click" onclick="playTrack()"><img src="img/player/player-play.png" alt=""></div>
                                 <div class="pause-track border-click" onclick="pauseTrack()"><img src="img/player/player-pause.png" alt=""></div>
@@ -114,12 +114,12 @@
                             <div class="sr-duration">
                                 <div class="shuffle-repeat">
                                     <div class="shuffle">
-                                        <input type="checkbox" id="shuffle" name="shuffle" value="shuffle">
-                                        <label for="shuffle">Shuffle</label><br>
+                                        <input type="checkbox" id="shuffle" name="shuffle" value="shuffle" cursor="pointer">
+                                        <label for="shuffle" cursor="pointer">Shuffle</label><br>
                                     </div>
                                     <div class="repeat">
-                                        <input type="checkbox" id="repeat" name="repeat" value="repeat">
-                                        <label for="repeat"><img src="img/player/player-repeat.png" alt=""></label><br> 
+                                        <input type="checkbox" id="repeat" name="repeat" value="repeat" cursor="pointer">
+                                        <label for="repeat" cursor="pointer"><img src="img/player/player-repeat.png" alt=""></label><br> 
                                     </div>
                                     <div class="stems">
                                         <a href="https://drive.google.com/drive/folders/1a3oi9HAIWIVgBbT7ga_DDXV9t6spJsBT?usp=sharing" target="_blank">Stems</a>
@@ -137,7 +137,7 @@
         <div class="window border-inside">    
             <div class="window-title"><h2>narratiffffchiki</h2></div>
             <div class="window-content border">
-                <div class="track-list">
+                <div class="track-list" cursor="pointer">
                 </div>
 
                 <div class="content-buttons" id="stream">

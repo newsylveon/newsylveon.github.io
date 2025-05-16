@@ -13,11 +13,11 @@
     font-family: 'FreePixel';
 }
 
-html, body, a, button, [cursor="pointer"], .track-list, .track-list * {
+html, body, a, button, [cursor="pointer"], .track-list, .track-list *, input, label {
     cursor: none !important;
 }
 
-#cursor {
+#cursor{
     position: fixed;
     width: 32px;
     height: 32px;
@@ -30,8 +30,11 @@ html, body, a, button, [cursor="pointer"], .track-list, .track-list * {
     transition: transform 0.1s ease-out;
 }
 
-#cursor.pointer {
+#cursor.pointer{
     background-image: url('img/cursor/select.png');
+}
+#cursor.normal{
+    background-image: url('img/cursor/normal.png');
 }
 
 ::-moz-selection{
@@ -53,6 +56,10 @@ html, body, a, button, [cursor="pointer"], .track-list, .track-list * {
     background: linear-gradient(90deg, rgba(199, 199, 199, 1) 49%, rgba(164, 164, 164, 1) 50%, rgba(3, 3, 3, 1) 100%);
     border: 2px ridge #1a1a1a;
     box-shadow: inset 1px 1px 0 0 white, inset -1px -1px 0 0 gray;
+    cursor: default !important;
+}
+::-webkit-scrollbar-thumb:hover + #cursor{
+    opacity: 0 !important;
 }
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
     display: block;

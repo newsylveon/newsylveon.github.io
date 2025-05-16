@@ -347,7 +347,6 @@ if (!('ontouchstart' in window)) {
   document.addEventListener('mousemove', (e) => {
       cursor.style.left = `${e.clientX}px`;
       cursor.style.top = `${e.clientY}px`;
-      console.log(e.clientX, e.clientY)
   });
 
   document.body.style.cursor = 'none';
@@ -360,9 +359,9 @@ if (!('ontouchstart' in window)) {
       cursor.style.opacity = '1';
   });
 
-  const pointerElements = document.querySelectorAll('a, button, [cursor="pointer"], .clickable');
+  const pointerElements = document.querySelectorAll('button, [cursor="pointer"], .clickable');
     pointerElements.forEach(el => {
         el.addEventListener('mouseenter', () => cursor.classList.add('pointer'));
         el.addEventListener('mouseleave', () => cursor.classList.remove('pointer'));
-    })
+  })
 }

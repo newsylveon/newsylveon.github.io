@@ -94,17 +94,17 @@
                                 </div>
                                 <div class="slider_container">
                                     <img src="img/player/player-volume.png" alt="" class="volume_icon">
-                                    <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()" cursor="pointer">
+                                    <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()" cursor="">
                                   </div>
                             </div>
                         </div>
                     </div>
                     <div class="controls">
                         <div class="slider_container">
-                            <input type="range" min="0" max="100" value="0" class="seek_slider" onchange="seekTo(); seekUpdate()" cursor="pointer">
+                            <input type="range" min="0" max="100" value="0" class="seek_slider" onchange="seekTo(); seekUpdate()" cursor="">
                         </div>
                         <div class="media-buttons">
-                            <div class="buttons" cursor="pointer">
+                            <div class="buttons" cursor="">
                                 <div class="prev-track border-click" onclick="prevTrack()"><img src="img/player/player-backward.png" alt=""></div>
                                 <div class="playpause-track border-click" onclick="playTrack()"><img src="img/player/player-play.png" alt=""></div>
                                 <div class="pause-track border-click" onclick="pauseTrack()"><img src="img/player/player-pause.png" alt=""></div>
@@ -114,19 +114,19 @@
                             <div class="sr-duration">
                                 <div class="shuffle-repeat">
                                     <div class="shuffle">
-                                        <input type="checkbox" id="shuffle" name="shuffle" value="shuffle" cursor="pointer">
-                                        <label for="shuffle" cursor="pointer">Shuffle</label><br>
+                                        <input type="checkbox" id="shuffle" name="shuffle" value="shuffle" cursor="default">
+                                        <label for="shuffle">Shuffle</label><br>
                                     </div>
                                     <div class="repeat">
-                                        <input type="checkbox" id="repeat" name="repeat" value="repeat" cursor="pointer">
-                                        <label for="repeat" cursor="pointer"><img src="img/player/player-repeat.png" alt=""></label><br> 
+                                        <input type="checkbox" id="repeat" name="repeat" value="repeat" cursor="default">
+                                        <label for="repeat"><img src="img/player/player-repeat.png" alt=""></label><br> 
                                     </div>
                                     <div class="stems">
-                                        <a href="https://drive.google.com/drive/folders/1a3oi9HAIWIVgBbT7ga_DDXV9t6spJsBT?usp=sharing" target="_blank">Stems</a>
+                                        <a href="https://drive.google.com/drive/folders/1a3oi9HAIWIVgBbT7ga_DDXV9t6spJsBT?usp=sharing" target="_blank" cursor="pointer">Stems</a>
                                     </div>
                                 </div>
                                 <div class="list-duration border-small">
-                                    0:00/11:20
+                                    0:00/25:17
                                 </div>
                             </div>
                         </div>
@@ -141,25 +141,25 @@
                 </div>
 
                 <div class="content-buttons" id="stream">
-                    <a class="article-btn" href="https://music.yandex.ru/album/36621810">
+                    <a class="article-btn" cursor="pointer" href="https://music.yandex.ru/album/36621810">
                         <img src="img/gifs/Notes-06.gif" alt=""> <span>Яндекс.Музыка</span>
                     </a>
-                    <a class="article-btn" href="https://music.vk.com/link/sFCAM">
+                    <a class="article-btn" cursor="pointer" href="https://music.vk.com/link/sFCAM">
                         <img src="img/gifs/ip.gif" alt=""> <span>VK Музыка</span>
                     </a>
-                    <a class="article-btn" href="https://open.spotify.com/album/2TiEolpSSNAO9vmxdBbAdw">
+                    <a class="article-btn" cursor="pointer" href="https://open.spotify.com/album/2TiEolpSSNAO9vmxdBbAdw">
                         <img src="img/gifs/audio-animate.gif" alt=""> <span>Spotify</span>
                     </a>
-                    <a class="article-btn" href="https://soundcloud.com/newsylveon/sets/narratifffchiki/">
+                    <a class="article-btn" cursor="pointer" href="https://soundcloud.com/newsylveon/sets/narratifffchiki/">
                         <img src="img/gifs/soun1.gif" alt=""> <span>Soundcloud</span>
                     </a>
                 </div>
                 
                 <div class="content-buttons" id="manifest">
-                    <a class="article-btn" href="https://www.donationalerts.com/r/nusylveon">
+                    <a class="article-btn" cursor="pointer" href="https://www.donationalerts.com/r/nusylveon">
                         <img src="img/gifs/dollar_green.gif" alt=""> <span>Support Me</span>
                     </a>
-                    <a class="article-btn" href="README.txt" target="_blank">
+                    <a class="article-btn" cursor="pointer" href="README.txt" target="_blank">
                         <img src="img/gifs/icon_notepad.gif" alt=""> <span>MANIFESTO</span>
                     </a>
                 </div>
@@ -169,10 +169,10 @@
     
     <footer>
         <div class="footer-buttons">
-            <a href="https://t.me/iskralabel" target="_blank"><img src="img/iskra.png" alt=""></a>
-            <a href="https://t.me/cyiiiectba" target="_blank"><img src="img/sychestva.png" alt=""></a>
+            <a href="https://t.me/iskralabel" cursor="pointer" target="_blank"><img src="img/iskra.png" alt=""></a>
+            <a href="https://t.me/cyiiiectba" cursor="pointer" target="_blank"><img src="img/sychestva.png" alt=""></a>
         </div>
-        <p>page by <a href="https://madoxy.github.io/" target="_blank">madoxy</a></p>
+        <p>page by <a href="https://madoxy.github.io/" cursor="pointer" target="_blank">madoxy</a></p>
     </footer>
 
     <script src="main.js"></script>
